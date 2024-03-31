@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 123.0.6312.87 (Mac OS 10.15.7)" package="" timestamp="2024-03-31T05:14:59" id="0" hostname="Myats-MBP" tests="3" errors="0" failures="0" time="0.042">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/123.0.6312.87 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should render title" time="0.039" classname="AppComponent"/>
+  <testcase name="AppComponent should have the 'toh' title" time="0.001" classname="AppComponent"/>
+  <testcase name="AppComponent should create the app" time="0.002" classname="AppComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
