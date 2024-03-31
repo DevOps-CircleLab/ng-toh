@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build-prod:
+  build:
     docker:
       - image: cimg/node:18.20.0-browsers
     steps:
@@ -17,7 +17,7 @@ jobs:
             - ~/.npm
       - run:
           name: Build Angular App
-          command: npm run build:prod
+          command: npm run build
       - run:
           name: Install ChromeHeadless
           command: |
@@ -58,10 +58,11 @@ workflows:
   build_and_test:
     jobs:
       # - test
-      - build-prod:
+      - build:
           # requires:
           #   - test
           filters:
             branches:
               only:
                 - master
+      
